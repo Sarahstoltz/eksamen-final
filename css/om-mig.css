@@ -5,6 +5,8 @@
   .img-portræt {
     max-width: 300px;
     margin: auto;
+    overflow: hidden;
+    aspect-ratio: 3 / 4;
   }
   
   .tekst-om-mig p {
