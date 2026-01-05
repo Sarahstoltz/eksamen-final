@@ -1,0 +1,209 @@
+/* *************** montserrat *************** */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+}
+/* *************** montserrat *************** */
+
+/* *************** montserrat italic*************** */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Italic.woff2") format("woff2"),
+    url("fonts/Montserrat-Italic.woff") format("woff");
+  font-weight: 100 900;
+  font-style: italic;
+}
+/* *************** montserrat italic*************** */
+
+/* *************** Bebas Neue*************** */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("fonts/BebasNeue-Regular.woff2") format("woff2"),
+    url("fonts/BebasNeue-Regular.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+}
+/* *************** Bebas Neue*************** */
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f9efde;
+}
+
+body p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #290102;
+  text-align: justify;
+}
+
+footer li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #290102;
+}
+
+body h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 75px;
+  color: #8c1636;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+body h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+  color: #290102;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #290102;
+}
+
+
+header a {
+  color: #290102;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 12px 15px;
+  background-color: transparent;
+  color: #290102;
+  font-weight: 700;
+  border-radius: 25px;
+  border: 2px solid #290102;
+  cursor: pointer;
+}
+
+.hero-btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: #290102;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+/* *************** header *************** */
+.header {
+  position: absolute;
+   top: 1rem;
+  width: 100%;
+  z-index: 100;
+
+  box-sizing: border-box;
+  padding: 1px 10px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header {
+  height: 100px;
+  width: auto;
+  display: block;
+}
+
+/* *************** header *************** */
+
+/* *************** footer *************** */
+footer {
+  background-color: #f9efde;
+  margin-top: 10rem;
+  box-sizing: border-box;
+  padding: 10px 18px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+footer ul {
+  margin: 0;
+  list-style: none;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer li {
+  margin: 0.5rem 0;
+  color: #290102;
+}
+
+.logo-footer {
+  height: 100px;
+  width: auto;
+  text-align: center;
+}
+
+/* *************** footer *************** */
+
+@media (min-width: 1024px) {
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  footer button {
+    font-size: 15px;
+  }
+
+  footer li {
+    font-size: 15px;
+  }
+
+  body p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #290102;
+  }
+
+  body h2 {
+    font-size: 50px;
+  }
+
+  body h3 {
+    font-size: 30px;
+  }
+
+  body h1 {
+    font-size: 100px;
+  }
+}
