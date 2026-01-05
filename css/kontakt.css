@@ -1,0 +1,46 @@
+.kontakt-billede {
+    text-align: center;
+    margin-top: -70px;
+    display: block;
+  }
+  
+  .kontakt-info {
+    text-align: center;
+    margin: 50px 100px;
+    padding: 10px;
+  }
+  
+  .kontakt-info a {
+    text-align: center;
+    color: #290102;
+  }
+  
+  .kontakt-info p {
+    text-align: center;
+  }
+  
+  .kontakt-info a:hover {
+    background-color: rgba(181, 10, 50, 0.325);
+    cursor: pointer;
+  }
+  
+  @media (min-width: 1024px) {
+    .kontakt-info {
+      margin: 50px 300px;
+    }
+  
+  
+    .kontakt-billede img {
+      max-width: 100%;
+      height: auto;
+      align-items: center;
+      margin-top:;
+    }
+  
+    .tre-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
