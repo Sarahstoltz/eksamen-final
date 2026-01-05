@@ -1,0 +1,154 @@
+.Læring h3,
+p {
+  text-align: center;
+  margin: auto 2rem;
+}
+
+.Læring {
+  margin-top: 3rem;
+}
+
+.Læring-2 h3 {
+  text-align: center;
+}
+
+.Læring-2 {
+  margin-top: 3rem;
+}
+
+.tema2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto 2rem;
+  gap: 0.5rem;
+}
+
+.mit-website p,
+a {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.link-website img {
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+  display: block;
+}
+
+.link-website,
+.link-website p,
+.link-website a {
+  color: #8c1636;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.projekt2 {
+  margin-top: 10rem;
+}
+
+.h1-tema {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .Læring-projekt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .Læring-projekt p {
+    margin-top: 2rem;
+    text-align: justify;
+  }
+
+  .process-løsning-billede {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify;
+  }
+
+  .projekt2-løsning {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify;
+  }
+
+  .process-løsning-billede p {
+    margin-top: 2rem;
+  }
+
+  .link-website {
+    margin-top: auto;
+  }
+
+  .link-website p {
+    text-align: center;
+  }
+
+  .link-website img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .to-billeder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .prototype {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .wireframe-img {
+    max-width: 700px;
+    margin: 2rem auto;
+  }
+
+  .et-billede {
+    max-width: 700px;
+    margin: 2rem auto;
+  }
+
+  .hanoi {
+    max-width: 700px;
+    margin: 2rem auto;
+  }
+
+  .tema2 {
+    margin-bottom: 4rem;
+  }
+
+  .Læring-2 {
+    max-width: 700px;
+    margin: 6rem auto;
+  }
+}
