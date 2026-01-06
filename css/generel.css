@@ -80,7 +80,6 @@ h3 {
   color: #290102;
 }
 
-
 header a {
   color: #290102;
   text-decoration: none;
@@ -104,8 +103,6 @@ button {
 
 .hero-btn {
   margin-top: 20px;
-  display: inline-block;
-  padding: 10px 15px;
   background-color: transparent;
   color: #290102;
   border: 2px solid #000000;
@@ -114,12 +111,24 @@ button {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  padding: 1rem 1rem;
+  white-space: nowrap;
+}
+
+.hero .cta-group {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.hero-btn:hover {
+  background-color: rgba(181, 10, 50, 0.325);
 }
 
 /* *************** header *************** */
 .header {
   position: absolute;
-   top: 1rem;
+  top: 1rem;
   width: 100%;
   z-index: 100;
 
