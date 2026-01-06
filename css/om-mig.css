@@ -1,115 +1,116 @@
 .overlay::backdrop {
-    background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.img-portræt {
+  max-width: 300px;
+  margin: auto;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+}
+
+.tekst-om-mig p {
+  text-align: center;
+  margin: 2rem 3rem;
+}
+
+.btn-popover {
+  display: block;
+  margin: 1rem auto;
+  color: #8c1636;
+  background-color: #8c1636;
+  color: #f2e8dc;
+  border: none;
+  border-radius: 0%;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.h2-uddannelse {
+  text-align: center;
+  margin: 4rem 2rem;
+}
+
+.uddannelse {
+  padding-bottom: 2rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+.uddannelse p {
+  color: #290102;
+  text-align: justify;
+}
+
+.uddannelse h3 {
+  text-align: center;
+  color: #8c1636;
+}
+
+.uddannelse .bold {
+  font-weight: 600;
+  color: #8c1636;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .om-mig-intro {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 0 2rem;
   }
-  
-  .img-portræt {
-    max-width: 300px;
-    margin: auto;
-    overflow: hidden;
-    aspect-ratio: 3 / 4;
-  }
-  
-  .tekst-om-mig p {
+
+  .tekst-om-mig {
+    flex: 1 1 50%;
+    max-width: 560px;
     text-align: center;
-    margin: 2rem 3rem;
+    margin: 0;
   }
-  
-  .btn-popover {
+
+  .img-portræt {
+    height: 420px;
+    margin: 0;
+    overflow: hidden;
     display: block;
-    margin: 1rem auto;
-    color: #8c1636;
-    background-color: #8c1636;
-    color: #f2e8dc;
-    border: none;
-    border-radius: 0%;
-    font-weight: 500;
-    border-radius: 10px;
   }
-  
+
+  .img-portræt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+
   .h2-uddannelse {
     text-align: center;
-    margin: 4rem 2rem;
+    margin: 10rem auto;
+    margin-bottom: 2rem;
+    max-width: 700px;
   }
-  
+
   .uddannelse {
-    padding-bottom: 2rem;
     text-align: center;
-    margin: 3rem;
-    text-align: center;
+    max-width: 700px;
+    padding: 0 1.25rem;
+    margin: 4rem auto;
   }
-  
+
+  body h1 {
+    font-size: 100px;
+  }
+
   .uddannelse p {
-    color: #290102;
     text-align: justify;
   }
-  
-  .uddannelse h3 {
-    text-align: center;
-    color: #8c1636;
-  }
-  
+
   .uddannelse .bold {
-    font-weight: 600;
-    color: #8c1636;
     text-align: center;
   }
-  
-  @media (min-width: 1024px) {
-    .om-mig-intro {
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: center;
-      justify-content: center;
-      gap: 4rem;
-      max-width: 1100px;
-      margin: 3rem auto;
-      padding: 0 2rem;
-    }
-  
-    .tekst-om-mig {
-      flex: 1 1 50%;
-      max-width: 560px;
-      text-align: center;
-      margin: 0;
-    }
-  
-    .img-portræt {
-      height: 420px; 
-      margin: 0;
-      overflow: hidden;
-      display: block;
-    }
-  
-    .img-portræt img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; 
-      object-position: center;
-      display: block;
-    }
-  
-    .h2-uddannelse {
-      text-align: center;
-      margin: 12rem 25rem;
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-  
-    .uddannelse {
-      text-align: center;
-      margin: 4rem 25rem;
-    }
-  
-    body h1 {
-      font-size: 100px;
-    }
-  
-    .uddannelse p {
-      text-align: justify;
-    }
-  
-    .uddannelse .bold {
-      text-align: center;
-    }
-  }
-  
+}
